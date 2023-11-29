@@ -3,21 +3,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
+  }
+  
+  /* body settings */
+  body {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
     line-height: 1.6;
     padding: 20px;
     background-color: #f4f4f4;
-}
-
-header {
+  }
+  
+  /* header styling */
+  header {
     text-align: center;
     margin-bottom: 20px;
-}
-
-.profile-img {
+  }
+  
+  /* profile-img styling */
+  .profile-img {
     width: 150px;
-    height: auto;
-}
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+  
+  /* h1 header styling */
+  h1 {
+    margin-top: 10px;
+    color: rgba(7, 9, 109, 0.719);
+  }
+
+  /* h2 header styling */
+  h2{
+      margin-bottom: 10px;
+      color: rgb(0, 2, 105);
+  }
+  
+  /* bio and project class styling */
+  .bio,
+  .projects {
+    margin-bottom: 10px;
+  }
+
+  /* link styling */
+  a {
+    color: rgb(104, 50, 206);
+    text-decoration: none;
+  }
+
+  /* mouse over link */
+  a:hover {
+      text-decoration: underline;
+      }
+
+  /* footer styling */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* unorder list styling */
+  ul {
+    padding-left: 2rem;
+    }
+  
+  /* order list styling */
+  ol {
+    padding-left: 2rem;
+    
+  }
