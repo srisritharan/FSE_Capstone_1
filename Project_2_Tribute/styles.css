@@ -28,6 +28,10 @@ h1 {
      text-align: center;
 }
 
+#img-caption {
+     margin: 15px 0 5px 0;
+   }
+
 #title {
      font-size: large;
      text-align: center;
