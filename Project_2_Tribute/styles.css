@@ -12,9 +12,9 @@
 }
 
 img {
-     max-width: 25%;
-     display: block;
+     max-width: 100%;
      height: auto;
+     display: block;
      margin: 0 auto;
      border: 5px solid white;
      border-radius: 10px;
@@ -24,13 +24,14 @@ h1 {
      font-size: 4rem;
      margin-bottom: 0;
 }
-#img-div{
+
+#img-div {
      text-align: center;
 }
 
 #img-caption {
      margin: 15px 0 5px 0;
-   }
+}
 
 #title {
      font-size: large;
@@ -42,8 +43,31 @@ h1 {
      text-align: justify;
 }
 
-  /* link styling */
-  a {
+/* link styling */
+a {
      color: rgb(143, 89, 245);
      text-decoration: none;
-   }
+}
+
+@media (max-width: 900px) {
+     #main {
+          background-color: grey;
+          color: black;
+
+     }
+
+     /* link styling */
+     a {
+          color: rgb(38, 87, 248);
+          text-decoration: none;
+     }
+
+     #img-caption {
+          font-size: 1rem;
+     }
+
+     img {
+          max-width: 40%;
+          height: auto;
+     }
+}
